@@ -7,14 +7,17 @@ import { IonicModule } from '@ionic/angular';
 import { DiscoverPageRoutingModule } from './discover-routing.module';
 
 import { DiscoverPage } from './discover.page';
-
+import { TabsModule } from 'src/app/components/tabs/tabs.module';
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    DiscoverPageRoutingModule
+    DiscoverPageRoutingModule,
+    TabsModule
   ],
-  declarations: [DiscoverPage]
+  declarations: [
+    DiscoverPage,
+  ]
 })
 export class DiscoverPageModule {}
