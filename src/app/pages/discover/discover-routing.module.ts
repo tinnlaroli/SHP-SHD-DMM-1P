@@ -1,7 +1,6 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-
+import { NgModule, NgModuleRef } from '@angular/core';
 import { DiscoverPage } from './discover.page';
+import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {

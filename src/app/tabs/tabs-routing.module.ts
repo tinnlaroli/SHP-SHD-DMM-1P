@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+<<<<<<< HEAD
 import { TabsComponent } from './tabs.component';
+=======
+import { TabsComponent } from '../tabs/tabs.component';
+>>>>>>> f0a651d (Resolviendo conflicto en tabs-routing y tabs.module)
 
 const routes: Routes = [
   {
