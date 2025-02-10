@@ -1,2 +1,31 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+
+// Importamos la fuente "Press Start 2P"
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  // Fuente global
+  --ion-font-family: 'Press Start 2P', cursive;
+
+  // Paleta de colores 8-bit
+  --color-rojo: #FF004D;
+  --color-verde: #00E436;
+  --color-azul: #29ADFF;
+  --color-naranja: #FFA300;
+  --color-gris-oscuro: #4F4F4F;
+  --color-morado: #AA4EA8;
+  --color-rosa-claro: #EEDDEE;
+  --color-amarillo: #FFEC27;
+
+  // Fondo y texto
+  --ion-background-color: var(--color-gris-oscuro);
+  --ion-text-color: var(--color-rosa-claro);
+}
+
+// Tema para el modo oscuro (opcional)
+.ion-color-dark {
+  --ion-background-color: var(--color-gris-oscuro);
+  --ion-text-color: var(--color-rosa-claro);
+}
+

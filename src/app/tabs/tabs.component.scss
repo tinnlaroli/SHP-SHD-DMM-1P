@@ -1,0 +1,39 @@
+ion-tab-bar {
+  background-color: var(--color-gris-oscuro);
+  border-top: 3px solid var(--color-amarillo);
+  font-family: 'Press Start 2P', cursive;
+  height: 60px; // Ajusta el tamaño de la barra si es necesario
+}
+
+ion-tab-button {
+  font-size: 24px;
+  color: var(--color-rosa-claro);
+  padding: 5px 0;
+
+  &:hover {
+    background-color: var(--color-naranja);
+    color: var(--color-amarillo);
+  }
+
+  &.tab-selected {
+    background-color: var(--color-morado);
+    color: var(--color-amarillo);
+  }
+}
+
+ion-icon {
+  font-size: 28px;  // Tamaño de los iconos 8-bit
+  color: var(--color-rosa-claro);
+}
+
+//ICONOS
+.tab-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain; /* Asegura que el icono se ajuste bien dentro del espacio */
+  transition: transform 0.3s ease-in-out;
+}
+
+ion-tab-button:hover .tab-icon {
+  transform: scale(1.2); /* Efecto al pasar el mouse */
+}
